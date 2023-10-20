@@ -1,3 +1,66 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "aphrodite";
+  src: url("./assets/fonts/aphrodite-slim-text.otf");
+}
+@font-face {
+  font-family: "now";
+  src: url("./assets/fonts/NowAlt-Regular.otf");
+}
+
+* {
+  scroll-behavior: smooth;
+  outline: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+:root {
+  /* --bg-color: #081b29; */
+  --bg-color:#171C26;
+  --second-bg-color: #112e42;
+  --text-color: #ededed;
+  --main-color: #8bae4e;
+  /* --main-color: #00abf0; */
+
+}
+
+#root{
+  padding: 0;
+  margin: 0;
+}
+
+
+.slider-title{
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+  display: block;
+}
+
+.slider-subtitle::before, .slider-subtitle::after
+{
+  content: "";
+  display: block;
+  background: #fff;
+  width: 35px;
+  height: 1px;
+  position: relative;
+
+
+}
+
+.slider-subtitle::before{
+  left: -50px;
+  top: 12px;
+}
+
+.slider-subtitle::after
+{
+  position: relative;
+  left: 132px;
+    top: -16px;
+
+}
