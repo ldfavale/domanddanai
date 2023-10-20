@@ -45,7 +45,7 @@ function App() {
           {/* <div className='h-10 '></div> */}
 
           {/* Main Title */}
-          <h1 className=' font-aphrodite text-[2.5rem] mb-8 md:text-6xl lg:text-[5rem] slider-title md:mb-8 text-white [text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);] text-center '> Dom & Danai</h1>
+          <h1 className=' font-aphrodite text-[2.5rem] mb-8 mt-4 md:text-6xl lg:text-[5rem] slider-title md:mb-10  text-white [text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);] text-center '> Dom & Danai</h1>
 
           {/* Wedding Date */}
           <span className='font-now  text-white  text-[0.625rem] md:text-xs  lg:text-[1.125rem] slider-subtitle mb-12 tracking-widest'>17 FEB 2024 </span>

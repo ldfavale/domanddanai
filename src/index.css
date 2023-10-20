@@ -65,19 +65,13 @@
 
 }
 
-.hero-slider-wrapper{
-  height: calc(80vh - 210px);
-  /* min-height: "650px" */
-}
 
 @media (min-width: 640px) {
   .slider-subtitle::after
   {
     left: 80px;
   }
-  .hero-slider-wrapper{
-    height: calc(100vh - 210px);
-  }
+
 }
 
 @media (min-width: 768px) {
