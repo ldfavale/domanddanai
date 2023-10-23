@@ -4,11 +4,8 @@ import HeroSlider, { Overlay, Slide, Nav, ButtonsNav } from "hero-slider";
 
 import slide1 from './assets/images/slide1.jpeg'
 import slide2 from './assets/images/slide2.jpeg'
-import slide3 from './assets/images/slide3.jpeg'
-// const bogliasco = "https://i.imgur.com/Gu5Cznz.jpg";
-// const countyClare = "https://i.imgur.com/idjXzVQ.jpg";
-// const craterRock = "https://i.imgur.com/8DYumaY.jpg";
- const giauPass = "https://themegeniuslab.com/html/jolly/assets/images/slider/slide-1.jpg";
+import slide3 from './assets/images/slide3.jpg'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -51,7 +48,7 @@ function App() {
           <span className='font-now  text-white  text-[0.625rem] md:text-xs  lg:text-[1.125rem] slider-subtitle mb-12 tracking-widest'>17 FEB 2024 </span>
 
           {/* Countdown Counter */}
-          <div className=' max-w-2xl bg-[rgba(178,201,211,0.8)]  '>
+          <div className=' max-w-2xl bg-[rgba(178,201,211,0.85)]  '>
             <div className=' flex flex-row'>
               <div className="p-8 py-7 lg:py-5 w-16 sm:w-20 md:w-44 flex flex-col  justify-center items-center">
                 <h2 className='font-aphrodite text-white text-3xl lg:text-5xl xl:text-7xl mb-2 lg:mb-4 xl:mb-6'>177</h2>
@@ -86,14 +83,6 @@ function App() {
 
 
         background={{
-          backgroundImageSrc: slide2
-        }}
-      />
-
-      <Slide
-
-
-        background={{
           backgroundImageSrc: slide3
         }}
       />
@@ -102,9 +91,10 @@ function App() {
 
 
         background={{
-          backgroundImageSrc: slide1
+          backgroundImageSrc: slide2
         }}
       />
+
 
       <Nav  />
     </HeroSlider>
