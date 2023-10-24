@@ -40,11 +40,10 @@
   display: block;
 }
 
-.slider-subtitle::before, .slider-subtitle::after
+.line-subtitle::before, .line-subtitle::after
 {
   content: "";
   display: block;
-  background: #fff;
   width: 35px;
   height: 1px;
   position: relative;
@@ -52,12 +51,12 @@
 
 }
 
-.slider-subtitle::before{
+.line-subtitle::before{
   left: -50px;
   top: 7px;
 }
 
-.slider-subtitle::after
+.line-subtitle::after
 {
   position: relative;
   left: 80px;
@@ -67,7 +66,7 @@
 
 
 @media (min-width: 640px) {
-  .slider-subtitle::after
+  .line-subtitle::after
   {
     left: 80px;
   }
@@ -75,7 +74,7 @@
 }
 
 @media (min-width: 768px) {
-  .slider-subtitle::after
+  .line-subtitle::after
   {
     left: 97px;
       top: -10px;
@@ -84,7 +83,7 @@
 }
 
 @media (min-width: 1024px) {
-  .slider-subtitle::after
+  .line-subtitle-slider::after
   {
     left: 140px;
   }

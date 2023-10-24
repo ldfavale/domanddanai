@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Slider from './components/Slider'
+import Header from './components/Header'
 
 
 function App() {
@@ -7,11 +8,8 @@ function App() {
 
   return (
     <>
-
-      <div className='  h-44 '></div>
+      <Header />
       <Slider />
-
-
     </>
   )
 }
