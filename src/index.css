@@ -11,6 +11,8 @@
   src: url("./assets/fonts/NowAlt-Regular.otf");
 }
 
+@import "~@flaticon/flaticon-uicons/css/all/all";
+
 * {
   scroll-behavior: smooth;
   outline: none;
@@ -24,7 +26,8 @@
   --bg-color:#171C26;
   --second-bg-color: #112e42;
   --text-color: #ededed;
-  --main-color: #8bae4e;
+  --main-color:rgba(178,201,211) ;
+  --shadow-color:rgba(178,201,211,0.16) ;
   /* --main-color: #00abf0; */
 
 }
@@ -62,6 +65,10 @@
   left: 80px;
     top: -9px;
 
+}
+
+.sombrita{
+  box-shadow: 0px 4px 13.65px 7.35px rgba(178, 201, 211, 0.16);
 }
 
 
