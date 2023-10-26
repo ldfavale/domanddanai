@@ -2,9 +2,11 @@ import React from 'react'
 
 import '../App'
 import HeroSlider, { Overlay, Slide, Nav } from "hero-slider";
-import slide1 from '../assets/images/slide1.jpeg'
-import slide2 from '../assets/images/slide2.jpeg'
+import slide1 from '../assets/images/slide1.jpg'
+import slide2 from '../assets/images/slide2.jpg'
 import slide3 from '../assets/images/slide3.jpg'
+import slide4 from '../assets/images/slide4.jpg'
+import slide5 from '../assets/images/slide5.jpg'
 import WeddingCountdown from './WeddingCountdown';
 
 
@@ -54,18 +56,25 @@ function Slider() {
 
 
         background={{
-          backgroundImageSrc: slide3
-        }}
-      />
-
-      <Slide
-
-
-        background={{
           backgroundImageSrc: slide2
         }}
       />
 
+      <Slide
+        background={{
+          backgroundImageSrc: slide3
+        }}
+      />
+      <Slide
+        background={{
+          backgroundImageSrc: slide4
+        }}
+      />
+      <Slide
+        background={{
+          backgroundImageSrc: slide5
+        }}
+      />
 
       <Nav  />
     </HeroSlider>

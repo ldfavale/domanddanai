@@ -5,7 +5,7 @@ import map from '../assets/images/maps.png'
 function ThePlaceSection() {
   return (
     <div className='flex flex-col  h-[728px] sm:h-[728px]  '>
-      <div className="h-[70%] bg-[--main-color]">
+      <div className="h-[70%] bg-[#DAEEEC]">
         <div className="h-full bg-[url('./assets/images/smiling.png')] bg-no-repeat  bg-[1216px_810px_]  bg-[center_top_-80px] sm:bg-[center_top_-80px] celebrate ">
              {/* Main Title bg-[912px_607px_] bg-[608px_405px_] */}
 
@@ -22,7 +22,7 @@ function ThePlaceSection() {
         {/* <h3 className='font-aphrodite text-lg sm:text-xl text-center mb-10 before:relative before:top-9 before:left-[50%]   before:-translate-x-1/2 before:w-32 before:h-[2px] before:flex before:bg-gray-300 '> The Place</h3> */}
          <img src={aguaverde} alt="aguaverde" />
         </div>
-
+        {/* #c3dacf #b4ccc1 cerde degrade */}
         <div className='bg-white  p-14 order-1 lg:order-2 flex flex-col max-w-xs mx-2 md:mx-4 items-center mb-10 sombrita'>
           <h3 className='font-aphrodite text-lg sm:text-xl text-center mb-10 before:relative before:top-9 before:left-[50%]   before:-translate-x-1/2 before:w-32 before:h-[2px] before:flex before:bg-gray-300 '> The Reception</h3>
           <p className='text-[13px] sm:text-sm font-now text-center text-gray-500 mb-5'>17 February, 2024 at 8PM  Camino del Cerro Eguzquiza Km. 7, Punta del  Este, Uruguay</p>
