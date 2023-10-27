@@ -4,6 +4,8 @@ import Header from './components/Header'
 import OurStorySection from './components/OurStorySection'
 import ThePlaceSection from './components/ThePlaceSection'
 import ReservationSection from './components/ReservationSection'
+import Footer from './components/Footer'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,6 +17,7 @@ function App() {
       <OurStorySection />
       <ThePlaceSection/>
       <ReservationSection/>
+      <Footer/>
 
       {/* <a href="https://www.flaticon.es/iconos-gratis/paloma" title="paloma iconos">Paloma iconos creados por shmai - Flaticon</a> */}
       {/* /* background: -webkit-gradient(linear, left top, left bottom, color-stop(30%, #b2c9d3), to(transparent)); */}

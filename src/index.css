@@ -56,12 +56,11 @@
   --bg-color:#171C26;
   --second-bg-color: #112e42;
   --text-color: #ededed;
+  --link-color: #b2c9d3;
   --main-color:rgba(178,201,211) ;
   --shadow-color:rgba(178,201,211,0.16) ;
   /* --main-color: #00abf0; */
-  --tw-ring-offset-shadow: red;
-  --tw-ring-shadow: red;
-  --tw-shadow:red;
+
 
 }
 

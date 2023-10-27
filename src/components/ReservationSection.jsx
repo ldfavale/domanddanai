@@ -7,7 +7,7 @@ const arrow_right_icon = <svg class="w-3 h-3 ml-2 text-white" aria-hidden="true"
 
 function ReservationSection() {
   return (
-    <section className='h-96 bg-white flex flex-col font-now py-20'>
+    <section className=' bg-white flex flex-col font-now pb-20'>
       <div className='flex flex-col  p-4 text-center'>
       <div className='flex justify-center items-center px-8 pt-8 '>
             <div className='w-24 h-[1px] bg-gray-300'></div>
