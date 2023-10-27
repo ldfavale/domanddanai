@@ -6,9 +6,39 @@
   font-family: "aphrodite";
   src: url("./assets/fonts/aphrodite-slim-text.otf");
 }
+
 @font-face {
   font-family: "now";
-  src: url("./assets/fonts/NowAlt-Regular.otf");
+  src: url("./assets/fonts/Now-Bold.otf");
+  font-weight:bold;
+  font-style:normal;
+}
+
+@font-face {
+  font-family: "now";
+  src: url("./assets/fonts/Now-Medium.otf");
+  font-weight:500;
+  font-style:normal;
+}
+
+@font-face {
+  font-family: "now";
+  src: url("./assets/fonts/Now-Regular.otf");
+  font-weight:normal;
+  font-style:normal;
+}
+
+@font-face {
+  font-family: "now";
+  src: url("./assets/fonts/Now-Light.otf");
+  font-weight:300;
+  font-style:normal;
+}
+@font-face {
+  font-family: "now";
+  src: url("./assets/fonts/Now-Thin.otf");
+  font-weight:100;
+  font-style:normal;
 }
 
 @import "~@flaticon/flaticon-uicons/css/all/all";
@@ -29,6 +59,9 @@
   --main-color:rgba(178,201,211) ;
   --shadow-color:rgba(178,201,211,0.16) ;
   /* --main-color: #00abf0; */
+  --tw-ring-offset-shadow: red;
+  --tw-ring-shadow: red;
+  --tw-shadow:red;
 
 }
 
@@ -83,6 +116,10 @@
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(30%, #b2c9d3), to(transparent));
 }
 
+[type='text']:focus, [type='email']:focus,select:focus ,textarea:focus{
+  border-color: var(--main-color);
+  box-shadow: none;
+}
 
 @media (min-width: 640px) {
   .line-subtitle::after
