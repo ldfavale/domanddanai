@@ -6,7 +6,7 @@ import vertical_story from '../assets/images/vertical_story.jpeg'
 
 function OurStorySection() {
   return (
-    <section className=' pb-8  mt-8'>
+    <section id='our_story' className=' pb-8  mt-8'>
         <div className='flex flex-col '>
           <div className='flex justify-center items-center px-8 pt-8 '>
             <div className='w-24 h-[1px] bg-gray-300'></div>

@@ -23,6 +23,7 @@ function App() {
       {/* /* background: -webkit-gradient(linear, left top, left bottom, color-stop(30%, #b2c9d3), to(transparent)); */}
       {/* <a href="https://www.freepik.com/icons/wedding">Icon by Freepik</a> */}
       {/* <a href="https://www.freepik.com/icons/wedding">Icon by Freepik</a> */}
+      {/* <a href="https://www.freepik.es/search?format=search&last_filter=query&last_value=blue+love+map+marker&query=blue+love+map+marker&type=icon">Icono de Andrean Prabowo</a> */}
        </>
   )
 }

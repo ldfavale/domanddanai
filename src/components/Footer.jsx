@@ -3,8 +3,8 @@ import couple from '../assets/images/couple.jpg'
 
 function Footer() {
   return (
-    <footer className=' flex flex-col items-center justify-center h-screen p-12 [background:url(./assets/images/footer-shape.png)_center_bottom/100%_no-repeat_local] bg-[rgba(178,201,211,0.1)]'>
-      <div className=' flex items-center justify-center w-80 h-72 mb-8 [background:url("./assets/images/couple-frame.png")_center_center/cover_no-repeat_local]'>
+    <footer id='thank_you' className=' flex flex-col items-center justify-center h-screen p-12 [background:url(./assets/images/footer-shape.png)_center_bottom/100%_no-repeat_local] bg-[rgba(178,201,211,0.1)]'>
+      <div className=' flex items-center justify-center w-80 h-72 md:w-[21rem] mb-8  md:mb-16 [background:url("./assets/images/couple-frame.png")_center_center/cover_no-repeat_local]'>
         <img src={couple} alt="couple" className='rounded-full  w-[71%] -mt-10 -ml-4' />
       </div>
       <h2 className="font-aphrodite text-[2.625rem] md:text-[3.25rem] mb-8 md:mb-12">Thank You</h2>

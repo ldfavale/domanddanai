@@ -41,7 +41,6 @@
   font-style:normal;
 }
 
-@import "~@flaticon/flaticon-uicons/css/all/all";
 
 * {
   scroll-behavior: smooth;
@@ -104,6 +103,7 @@
 }
 
 .celebrate::before{
+  z-index: 1;
   content: '';
   display:flex;
   position: relative;

@@ -1,7 +1,9 @@
-import React, { Component } from 'react'
+import React, { useState } from 'react'
 
-export default class Header extends Component {
-  render() {
+ function Header() {
+
+    const [menuButtonClicked, setmenuButtonClicked] = useState(false);
+
     return (
       <div id='header' className=' flex flex-col '>
         <div className="flex flex-col py-8 border-b border-gray-200">
@@ -20,22 +22,38 @@ export default class Header extends Component {
 
         <nav className=' justify-center font-now uppercase font-semibold  text-xs  hidden md:flex'>
           <ul className='flex flex-row [&_li]:py-3 [&_li]:md:px-6  [&_li]:lg:px-8 [&_li]:flex [&_li]:items-center '>
-            <li>Countdown</li>
-            <li>Our Story</li>
-            <li>Moments</li>
-            <li>Reservation</li>
-            <li>The Place</li>
+            <li><a href="#countdown">Countdown</a></li>
+            <li><a href="#our_story">Our Story</a></li>
+            <li><a href="#the_place">The Place</a></li>
+            <li><a href="#rsvp">Reservation</a></li>
+            <li><a href="#thank_you">Thank You</a></li>
           </ul>
         </nav>
 
-        <span className='p-[0.6rem] border bg-[#202a41]  md:hidden'>
+        <button onClick={()=>{setmenuButtonClicked(!menuButtonClicked)}} className='p-[0.6rem] border bg-[#202a41]  md:hidden'>
           <svg class="w-5 h-4  text-white  " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
             <path stroke="currentColor"  stroke-width="1.7" d="M1 1h15M1 7h15M1 13h15"/>
           </svg>
-        </span>
+        </button>
 
         </div>
+
+
+      { menuButtonClicked &&
+        <nav className='font-now uppercase font-semibold text-xs '>
+          <ul className='flex flex-col text-center items-center justify-center [&_li]:py-3 [&_li]:md:px-6  [&_li]:lg:px-8 [&_li]:flex [&_li]:items-center '>
+            <li><a href="#countdown">Countdown</a></li>
+            <li><a href="#our_story">Our Story</a></li>
+            <li><a href="#the_place">The Place</a></li>
+            <li><a href="#rsvp">Reservation</a></li>
+            <li><a href="#thank_you">Thank You</a></li>
+          </ul>
+        </nav>
+        }
+
       </div>
     )
-  }
+
 }
+
+export default Header
