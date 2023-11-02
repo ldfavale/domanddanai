@@ -31,8 +31,8 @@ import React, { useState } from 'react'
         </nav>
 
         <button onClick={()=>{setmenuButtonClicked(!menuButtonClicked)}} className='p-[0.6rem] border bg-[#202a41]  md:hidden'>
-          <svg class="w-5 h-4  text-white  " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-            <path stroke="currentColor"  stroke-width="1.7" d="M1 1h15M1 7h15M1 13h15"/>
+          <svg className="w-5 h-4  text-white  " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+            <path stroke="currentColor"  strokeWidth="1.7" d="M1 1h15M1 7h15M1 13h15"/>
           </svg>
         </button>
 
