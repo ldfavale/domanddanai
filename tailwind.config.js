@@ -9,6 +9,8 @@ export default {
       fontFamily: {
         aphrodite: ["aphrodite"],
         now: ["now"],
+        italiana: ["italiana"],
+        gayathri: ["gayathri"],
       },
     },
   },

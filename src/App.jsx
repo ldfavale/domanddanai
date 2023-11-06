@@ -38,7 +38,6 @@ function App() {
       <OurStorySection />
       <ThePlaceSection/>
       <ReservationSection handleShowAlert={handleShowAlert}/>
-      <Footer/>
 
       {/* <a href="https://www.flaticon.es/iconos-gratis/paloma" title="paloma iconos">Paloma iconos creados por shmai - Flaticon</a> */}
       {/* /* background: -webkit-gradient(linear, left top, left bottom, color-stop(30%, #b2c9d3), to(transparent)); */}
