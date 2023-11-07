@@ -2,10 +2,12 @@ import { useState } from 'react'
 import Slider from './components/Slider'
 import Header from './components/Header'
 import OurStorySection from './components/OurStorySection'
-import ThePlaceSection from './components/ThePlaceSection'
 import ReservationSection from './components/ReservationSection'
 import Footer from './components/Footer'
 import { Alert } from 'flowbite-react';
+import LocationSection from './components/LocationSection'
+import GiftsSection from './components/GiftsSection'
+import RSVPCall from './components/RSVPCall'
 
 function App() {
   const [showAlert, setShowAlert] = useState(false);
@@ -35,9 +37,12 @@ function App() {
      }
       <Header />
       <Slider />
-      <OurStorySection />
-      <ThePlaceSection/>
+      <RSVPCall/>
+      <LocationSection/>
+      <OurStorySection/>
+      <GiftsSection/>
       <ReservationSection handleShowAlert={handleShowAlert}/>
+      <Footer/>
 
       {/* <a href="https://www.flaticon.es/iconos-gratis/paloma" title="paloma iconos">Paloma iconos creados por shmai - Flaticon</a> */}
       {/* /* background: -webkit-gradient(linear, left top, left bottom, color-stop(30%, #b2c9d3), to(transparent)); */}

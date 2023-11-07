@@ -1,36 +1,31 @@
 import React from 'react'
-import paloma from '../assets/images/paloma.png'
-import our_story from '../assets/images/our_story.jpeg'
-import vertical_story from '../assets/images/vertical_story.jpeg'
 
 
-function OurStorySection() {
+function LocationSection() {
+
   return (
-    <section id='our_story' className=' pb-8  mt-8'>
-        <div className='flex flex-col '>
-          <div className='flex justify-center items-center px-8 pt-8 '>
-            <div className='w-24 h-[1px] bg-gray-300'></div>
-            <img src={paloma} alt="" className='h-16 w-14 mx-8' />
-            <div className='w-24 h-[1px] bg-gray-300'></div>
-          </div>
-
-          <h1 className="font-now text-2xl md:text-3xl text-center mb-2"> Our love Story </h1>
-          <div className='flex flex-col md:flex-row items-center justify-center p-4'>
-            <img src={our_story} alt="" className='w-[100%] my-8 max-w-lg md:hidden ' />
-            <img src={vertical_story} alt="" className='w-[100%] my-8 max-w-md hidden md:flex' />
-            <div className='p-8  shadow-2xl sombrita max-w-lg lg:max-w-xl md:-ml-20 z-10 bg-white'>
-              <h1 className="font-aphrodite text-2xl md:text-3xl lg:text-4xl text-center mb-5"> Once upon a time... </h1>
-              <h2 className="font-now text-[--main-color]  text-sm  md:text-base lg:text-lg text-center mb-6">
-              A Dutch and a Canadian Who fell in love in Uruguay.
-              </h2>
-              <p className='font-now text-sm md:text-base  text-gray-400'> We both left our lives in The Netherlands and Canada in 2022 and started a new adventure in Uruguay. We met in a small local church and his family invited her over for lunch. We had so many things in common and it immediately felt like we’ve been friends for years. It was the start of a good friendship.
-                  Throughout the rest of the summer we became better friends and could talk for hours about combined interests. Despite that, our lovestory began after summer. The funny thing is that both of our families met each other before we fell in love. Little did we know we would all become family very soon after that.
-                  We both knew we wanted to spent the rest of our lives together and the rest is history. </p>
-            </div>
+    <div id="our_story" className='flex flex-col pb-20'>
+      <div className="">
+        <div className={"h-[420px] md:h-[510px] bg-[url('./assets/images/our_story.jpeg')] md:bg-[url('./assets/images/our_story_banner.jpg')] bg-center  bg-no-repeat flex flex-col justify-center items-center" }>
+             {/* Main Title */}
+             <h2 className='   font-italiana text-4xl sm:text-5xl md:text-6xl     text-white text-center   z-10'> Our Story</h2>
+        </div>
+        <div className='flex  justify-center items-center pt-20  md:pt-44 px-10'>
+        <div className='flex flex-col justify-center items-center  max-w-2xl md:mx-22'>
+            <h3 className='   font-italiana text-4xl sm:text-4xl md:text-5xl  text-center   z-10'>A Dutch and a Canadian who fell in love in Uruguay.</h3>
+            <p className='text-center my-20 md:my-28' >
+                We both left our lives in The Netherlands and Canada in 2022 and started a new adventure in Uruguay. It was in a small local church that we met and his family invited her over for lunch. We had so many things in common and it immediately felt like we’ve been friends for years. It was the start of a good friendship. Throughout the rest of the summer we became better friends and could talk for hours about combined interests. Despite that, our lovestory began after summer. The ironic thing is that both of our families met each other before we fell in love. Little did we know we would all become family very soon after that. We both knew we wanted to spend the rest of our lives together. The rest is history.
+            </p>
           </div>
         </div>
-      </section>
+      </div>
+
+
+      {/* https://www.google.com/maps/place/Estancia+Aguaverde/@-34.843679,-54.87884,17z/data=!4m9!3m8!1s0x95751be35b57acad:0xbbf7e6f2a152c88e!5m2!4m1!1i2!8m2!3d-34.8427182!4d-54.8790803!16s%2Fg%2F11clgd_8_g?hl=es&entry=ttu */}
+
+
+    </div>
   )
 }
 
-export default OurStorySection
+export default LocationSection
