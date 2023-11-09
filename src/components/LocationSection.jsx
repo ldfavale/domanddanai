@@ -13,7 +13,7 @@ function LocationSection({id,bannerImg}) {
         <div className='flex  justify-center items-center  pt-32  md:pt-44 px-10'>
         <div className='flex flex-col justify-center items-center  max-w-xs '>
             <h3 className='   font-italiana text-4xl sm:text-4xl md:text-5xl  text-center   z-10'>The Reception</h3>
-            <p className='text-center my-12 md:my-28' >
+            <p className='text-center my-12 md:my-28 md:text-lg' >
               The wedding ceremony will take place at Estancia Aguaverde <br/><br/>
               17 February, 2024 Camino del Cerro Eguzquiza Km. 7, Punta del Este, Uruguay<br/><br/>
               5PM - 12PM

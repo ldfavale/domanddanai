@@ -13,7 +13,7 @@ function LocationSection() {
         <div className='flex  justify-center items-center pt-20  md:pt-44 px-10'>
         <div className='flex flex-col justify-center items-center  max-w-2xl md:mx-22'>
             <h3 className='   font-italiana text-4xl sm:text-4xl md:text-5xl  text-center   z-10'>A Dutch and a Canadian who fell in love in Uruguay.</h3>
-            <p className='text-center my-20 md:my-28' >
+            <p className='text-center font-gayathri my-20 md:my-28 md:text-lg' >
                 We both left our lives in The Netherlands and Canada in 2022 and started a new adventure in Uruguay. It was in a small local church that we met and his family invited her over for lunch. We had so many things in common and it immediately felt like we’ve been friends for years. It was the start of a good friendship. Throughout the rest of the summer we became better friends and could talk for hours about combined interests. Despite that, our lovestory began after summer. The ironic thing is that both of our families met each other before we fell in love. Little did we know we would all become family very soon after that. We both knew we wanted to spend the rest of our lives together. The rest is history.
             </p>
           </div>

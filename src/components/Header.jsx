@@ -59,7 +59,7 @@ window.addEventListener("scroll", checkScrollPosition);
           <ul className='flex flex-col text-center items-center justify-center [&_li]:py-3 [&_li]:md:px-6  [&_li]:lg:px-8 [&_li]:flex [&_li]:items-center '>
             <li className='hover:underline'><a href="#our_story">Our Story</a></li>
             <li className='hover:underline'><a href="#location">Location</a></li>
-            <li className='hover:underline'><a href="#rsvp">RSVO</a></li>
+            <li className='hover:underline'><a href="#rsvp">RSVP</a></li>
           </ul>
         </nav>
         }
