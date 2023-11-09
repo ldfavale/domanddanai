@@ -55,7 +55,7 @@ window.addEventListener("scroll", checkScrollPosition);
 
 
       { menuButtonClicked &&
-        <nav className='font-gayathri   text-md bg-[rgba(0,0,0,0.9)] text-white '>
+        <nav className='font-gayathri   text-md bg-[rgba(0,0,0,0.9)] text-white md:hidden '>
           <ul className='flex flex-col text-center items-center justify-center [&_li]:py-3 [&_li]:md:px-6  [&_li]:lg:px-8 [&_li]:flex [&_li]:items-center '>
             <li className='hover:underline'><a href="#our_story">Our Story</a></li>
             <li className='hover:underline'><a href="#location">Location</a></li>
