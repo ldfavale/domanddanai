@@ -39,30 +39,28 @@ function ReservationSection({handleShowAlert}) {
       <div className='flex flex-col justify-center items-center pb-16 md:pb-32 bg-[rgba(255,255,255,0.50)] pt-10 '>
         <div className='flex flex-col  m-4 text-center bg-white  max-w-[45rem]'>
 
-          <h3 className='  text-4xl md:text-5xl font-italiana my-3 mt-8 md:mt-16 mb-12' >Are You attending?</h3>
-          <p className=' mb-8 md:mb-16 md:text-lg'> Please fill in the form to confirm your attendance. We are so exited to share this special moment with you </p>
+          <h3 className='  text-4xl md:text-5xl font-italiana my-3 mt-8 md:mt-16 mb-12' >Are you attending?</h3>
+          <p className=' mb-8 md:mb-16 md:text-lg'> Please fill in the form to confirm your attendance. We are so excited to share this special moment with you! </p>
 
           <div className=' p-[1.6px] flex col'>
             <div className='  w-full flex flex-col py-8 px-5 font-light '>
               <form id="form" ref={form} onSubmit={sendEmail} className='flex flex-col md:flex-row   flex-wrap justify-between'>
-                <input required name='name' type="text" placeholder='Your Name*' className='mb-6 h-11 w-full md:w-80  pr-2 px-2 py-4 border-1 border-solid border-[#dadce0] bg-[#dadce0]   '/>
-                <input required  name='email' type="email" placeholder='Your Email*' className='mb-6 h-11 w-full md:w-80   px-2 py-4 border-1 border-solid border-[#dadce0] bg-[#dadce0]   '/>
+                <input required name='name' type="text" placeholder='Your name*' className='mb-6 h-11 w-full md:w-80  pr-2 px-2 py-4 border-1 border-solid border-[#dadce0] bg-[#dadce0]   '/>
+                <input required  name='email' type="email" placeholder='Your email*' className='mb-6 h-11 w-full md:w-80   px-2 py-4 border-1 border-solid border-[#dadce0] bg-[#dadce0]   '/>
                 <select name="guests" id="" defaultValue="" className='mb-6 h-11 w-full px-2  border-1 border-solid border-[#dadce0] md:w-80 bg-[#dadce0]  text-gray-500 '>
-                  <option value="" disabled >Number of Guests*</option>
+                  <option value="" disabled >Number of guests*</option>
                   <option value="1">1</option>
                   <option value="2">2</option>
                   <option value="3">3</option>
                   <option value="4">4</option>
                   <option value="5">5</option>
-                  <option value="6">6</option>
-                  <option value="7">7</option>
                 </select>
                 <select name="translation" id="" defaultValue="" className='mb-6 h-11 w-full px-2  border-1 border-solid border-[#dadce0] md:w-80 bg-[#dadce0] text-gray-500  '>
-                  <option value="" disabled >Nesecitas traduccion?*</option>
+                  <option value="" disabled >Traducción al español?*</option>
                   <option value="Si">Si</option>
                   <option value="No">No</option>
                 </select>
-                <textarea name="message" id="" cols="30" rows="5" placeholder='Your Message' className='mb-6  w-full px-2 py-4 border-1 border-solid border-[#dadce0] bg-[#dadce0]  '></textarea>
+                <textarea name="message" id="" cols="30" rows="5" placeholder='Your message' className='mb-6  w-full px-2 py-4 border-1 border-solid border-[#dadce0] bg-[#dadce0]  '></textarea>
                 {/* <input type="button" value="send invitation {arrow_right_icon}" className='bg-[--main-color] py-4 px-6 uppercase text-white text-xs font-bold' /> */}
                 <div className='w-full flex flex-col justify-center items-center'>
                 {!formLoading &&
